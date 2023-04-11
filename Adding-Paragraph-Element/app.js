@@ -3,8 +3,8 @@ function addParagraph(text) {
     const para = document.createElement("p");
     para.textContent = text; 
     const body = document.querySelector("body");
-    const bodyHTML = body.innerHTML;
-    const newHTML = bodyHTML + para.outerHTML;
+    const oldHTML = body.innerHTML;
+    const newHTML = oldHTML + para.outerHTML;
     body.innerHTML = newHTML;
 
   }
