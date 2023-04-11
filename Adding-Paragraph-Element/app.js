@@ -8,4 +8,4 @@ function addParagraph(text) {
     body.innerHTML = newHTML;
 
   }
-addParagraph("my name is syed murtaza ali")
+addParagraph("hi my name is syed murtaza ali")
